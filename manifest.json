@@ -1,0 +1,24 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshdesk": {
+      "location": {
+        "ticket_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      },
+      "functions": {
+        "getAgentsSendbirdCreds": {
+          "timeout": 5
+        }
+      }
+    }
+  },
+
+  "whitelisted-domains": ["https://api-885C2616-DBF8-4BDC-9178-4A1A662614E3.calls.sendbird.com","https://api-885C2616-DBF8-4BDC-9178-4A1A662614E3.sendbird.com"],
+  "engines": {
+    "node": "14.18.0",
+    "fdk": "8.6.7"
+  }
+}

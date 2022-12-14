@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>A Template App</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script async src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sendbird-calls/1.9.3/SendBirdCall.min.js" integrity="sha512-8UrnIOEOmOSPEn69SVaNGYlrMiE4KfFGbmJEO2Y+YwNwk8zVnoYczJqwOEb993jl2lhAJEdubIxgu3sPXfcVwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+</head>
+<body>
+ <div style="display: grid; grid-gap: 20px; ">
+     <div id="details">Loading...</div>
+     <video height="400" width="100%" style="border: 1px lightgrey solid;" id="remote_video_element_id" autoplay ></video>
+     <button onclick="callCustomer()" id="call_button">Call</button>
+     <button onclick="endCall()" id="call_button">End Call</button>
+ </div>
+
+
+
+<script defer src="scripts/modal.js"></script>
+</body>
+</html>
